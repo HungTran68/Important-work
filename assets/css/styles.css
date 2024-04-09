@@ -1,0 +1,471 @@
+/* reset browser */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-top-main{
+    width: 100%;
+    height: 847px;
+    background-color: #F4F4F5;
+    
+}
+/* Thanh phan global */
+.container{
+    max-width: 1320px;
+    /* height: 847px; */
+    margin: auto;
+    /* background-color: aqua; */
+    
+}
+/* Khoang trong dau trang */
+.empty-top{
+    width: 100%;
+    height: 31px;
+}
+
+/* header-top */
+.header-top-main .container .header-top{
+    width: 100%;
+    height: 59px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* icon-search */
+.header-top .icon-search i {
+    margin-top: 4px;
+    width: 25px;
+    height: 25px;
+    margin-left: 2.5px;
+    /* background-color: red; */
+}
+
+/* icon-right-page */
+.right-header-top{
+    display: flex;
+    margin-top: 4px;
+}
+
+.right-header-top .box i{
+    width:20px;
+    height: 19px;
+    margin: 0 8px 0 0;
+    /* chua co font size icon o day */
+}
+         
+.box {
+    display: flex;
+}
+
+.box p {
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+.cart{
+    margin-left: 22px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+}
+
+.text-middle-header{
+    display: flex;
+}
+.text-middle-header p{
+    font-size: 28px;
+    margin: 0 10px;
+    line-height: 33.6px;
+    /* font-family: ; ow day chua co font   chu */
+}
+.text-middle-header img{
+    width: 31px;
+    height: 15px;
+    margin-top: 10px;
+}
+
+/* Top-menu */
+.top-menu ul{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-menu ul li {
+    list-style: none;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* <!-- banner-top --> */
+
+.banner-top{
+margin-top: 81px;
+display: flex;
+/* justify-content:space-between */
+}
+
+.banner-top .tittle-text{
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 55px;
+    margin-top: 75px;
+}
+.banner-top .descrip-tittle{
+    margin-top: 52px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 55px;
+
+}
+.left-description-content{
+    margin-right: 98px;
+}
+
+/* button shop now */
+.button-shop-now{
+    margin: 66px 459px 124px 4px;
+    display: flex;
+    width: 223px;
+    height: 72px;
+    padding: 19px 26px 19px 26px;
+    background-color: #1e2832;
+    /* margin: 0 -8px; */
+    justify-content: center;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+/* .info-button{
+    padding-left: 8px;
+    padding-right: 8px
+} */
+.text-button-head{
+    color: white;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 33.98px;
+}
+
+/* brands-logo */
+.brands{
+    margin: 90px 0;
+}
+/* hot-category */
+.category{
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 0 -24px;
+    position: relative;
+}
+
+.item-banner{
+    padding-left: 24px;
+    /* padding-right: 24px; */
+}
+.text-hot-category{
+    width: 648px;
+    height: 52px;
+    /* rotate: -90deg; */
+    margin-top: 30px;
+    /* /* margin-left: 20px;  */
+    position:absolute;
+    left: 250px;
+    z-index: 2;
+    
+}
+/* .text-hot-category p{
+    
+} */
+.row-col2{
+    display: flex;
+    justify-content: space-between !important;
+    margin: 0 -24px;
+
+}
+.row-col2 img{
+    padding-left: 24px;
+    /* padding-right: 24px; */
+    padding-top: 24px;
+    /* padding-bottom: 24px; */
+
+}
+.right-hot-category{
+    margin: -24px 0;
+}
+
+/* Grid-product-section */
+.tittle-grid-product{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+
+}
+.tittle-grid-product h2{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 58.59px;
+    margin-bottom: 35px;
+}
+
+.button-filter{
+    width: 92px;
+    height: 32px;
+    padding: 8px 15px 10px 15px;
+    background-color: #1E2832;
+    display: flex;
+    /* margin-bottom: 3px; */
+}
+.item1{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.button-filter p{
+    color: white;
+}
+
+.menu-grid-product{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.left-menu ul{
+    display: flex;
+    /* margin: 0 40.33px; */
+}
+
+.left-menu ul li{
+    list-style: none;
+    /* padding-left: 40.33px; */
+    padding-right: 40.33px;
+    font-size: 16px;
+    line-height: 21.79px;
+    font-weight: 600;
+    color: #00000080 ;
+    ;
+}
+
+/* Product */
+
+.rows{
+    display: flex;
+    /* margin-top: 35px; */
+    margin: -24px -24px;
+    /* margin-bottom: ; */
+
+}
+
+.column{
+    padding: 24px 24px;
+    width: calc(100%/4);
+    flex-wrap: wrap;
+}
+
+.name-product h6{
+    margin: 18px 0 16px 10px;
+    font-size: 16px;
+    line-height: 21.79px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.category-price-category{
+    display: flex;
+    padding: 0 10px 0 10px;
+    justify-content: space-between;
+}
+.category-pr{
+    color: #00000080  ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.price-pr{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000 ;
+}
+
+/* css image */
+.column .image-col1 img{
+    width: 312px;
+    height: 400px;
+}
+
+.brand-zara {
+    position: relative;
+}
+
+/* Brand zara */
+.brand-zara .image-background img{
+    width: 100%;
+    height: 776px;
+    position: relative;
+    z-index: 1;
+}
+
+.information-zara{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    left: 80%;
+    top: 50%;
+    transform: translate(-80%, -50%);
+}
+.button-see-collec{
+    width: 237px;
+    height: 72px;
+    padding: 19px 26px 19px 26px;
+    background-color:#FFFFFF;
+}
+.information-zara .logo-zara img{
+    z-index: 5;
+}
+
+/* Sale-section Intagram */
+.tittle-sale-section h2{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 58.59px;
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sale-section{
+    margin-top: 140px;
+    width: 100%;
+    height: 754px;
+    background-color: #1E28320D;
+    padding: 100px 0;
+}
+
+.rows-col6{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.img-sale img{
+    width: 200px;
+    height: 200px;
+}
+
+.box-search{
+    display: flex;
+    justify-content: center;
+    margin: 0 -26px;
+}
+.item-search{
+ padding-left: 13px;
+ padding-right: 13px;
+ margin-top: 74px;
+}
+
+.item-search input{ 
+    width: 643px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000000 ;
+    background-color: #1E28320D;
+}
+
+.item-search button{
+    width: 91px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000000 ;
+    background-color: #1E28320D;
+}
+/* footer */
+.left-footer{
+    width: 392px;
+    height: 207px; 
+    /* margin-right: 56px; */
+}
+.logo-footer{
+    display: flex;
+    width: 180px;
+    height: 34px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer p{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.6px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000000;
+}
+.logo-footer img{
+    width: 31px;
+    height: 15px;
+}
+
+.text-left-footer p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1E2832BF;
+    margin: 32px 0;
+}
+
+.socials-icon{
+    display: flex;
+    margin-right: 184px;
+    justify-content: space-between;
+}
+
+.title-footer-menu{
+    margin-bottom: 22px;
+}
+
+.title-footer-menu div{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 21.79px;
+    font-size: 16px;
+}
+
+.footer-menu .new-brands{
+    font-size: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1E2832;
+    margin-bottom: 12px;
+}
+
+.right-footer{
+    display: flex;
+    width: 928px;
+    
+}
+
+.footer-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu{
+    width: 200px;
+    height: 212px;
+    margin-left: 136px;
+}
+.footer{
+    margin-top: 140px;
+}
+
+
+
