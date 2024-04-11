@@ -1,3 +1,188 @@
+/* import font-family */
+@font-face {
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-Black.eot');
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Black.woff2') format('woff2'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Black.woff') format('woff'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Black.ttf') format('truetype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Black.svg#../fonts-family/transfonter.org-20240411-204745/Roboto-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-Light.eot');
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Light.woff2') format('woff2'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Light.woff') format('woff'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Light.ttf') format('truetype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Light.svg#../fonts-family/transfonter.org-20240411-204745/Roboto-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-LightItalic.eot');
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-LightItalic.woff2') format('woff2'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-LightItalic.woff') format('woff'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-LightItalic.ttf') format('truetype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-LightItalic.svg#../fonts-family/transfonter.org-20240411-204745/Roboto-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-Bold.eot');
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Bold.woff') format('woff'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Bold.ttf') format('truetype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Bold.svg#../fonts-family/transfonter.org-20240411-204745/Roboto-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-BlackItalic.eot');
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-BlackItalic.woff2') format('woff2'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-BlackItalic.woff') format('woff'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-BlackItalic.ttf') format('truetype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-BlackItalic.svg#../fonts-family/transfonter.org-20240411-204745/Roboto-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-BoldItalic.eot');
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-BoldItalic.woff2') format('woff2'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-BoldItalic.woff') format('woff'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-BoldItalic.ttf') format('truetype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-BoldItalic.svg#../fonts-family/transfonter.org-20240411-204745/Roboto-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
+    src: url('../fonts-family/transfonter.org-20240411-204745/');
+    src: url('../fonts-family/transfonter.org-20240411-204745/?#iefix') format('embedded-opentype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Italic.woff2') format('woff2'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Italic.woff') format('woff'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Italic.ttf') format('truetype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Italic.svg#../fonts-family/transfonter.org-20240411-204745/Roboto-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-ThinItalic.eot');
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-ThinItalic.woff2') format('woff2'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-ThinItalic.woff') format('woff'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-ThinItalic.ttf') format('truetype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-ThinItalic.svg#../fonts-family/transfonter.org-20240411-204745/Roboto-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-Medium.eot');
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Medium.woff') format('woff'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Medium.ttf') format('truetype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Medium.svg#../fonts-family/transfonter.org-20240411-204745/Roboto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-Regular.eot');
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Regular.woff') format('woff'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Regular.ttf') format('truetype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Regular.svg#../fonts-family/transfonter.org-20240411-204745/Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-MediumItalic.eot');
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-MediumItalic.woff2') format('woff2'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-MediumItalic.woff') format('woff'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-MediumItalic.ttf') format('truetype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-MediumItalic.svg#../fonts-family/transfonter.org-20240411-204745/Roboto-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-Thin.eot');
+    src: url('../fonts-family/transfonter.org-20240411-204745/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Thin.woff2') format('woff2'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Thin.woff') format('woff'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Thin.ttf') format('truetype'),
+        url('../fonts-family/transfonter.org-20240411-204745/Roboto-Thin.svg#../fonts-family/transfonter.org-20240411-204745/Roboto-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* import font-family: Open sans */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts-family/opensans/');
+    src: url('../fonts-family/opensans/?#iefix') format('embedded-opentype'),
+        url('../fonts-family/opensans/OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts-family/opensans/OpenSans-Regular.woff') format('woff'),
+        url('../fonts-family/opensans/OpenSans-Regular.ttf') format('truetype'),
+        url('../fonts-family/opensans/OpenSans-Regular.svg#../fonts-family/opensans/OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts-family/opensans/OpenSans-Italic.eot');
+    src: url('../fonts-family/opensans/OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts-family/opensans/OpenSans-Italic.woff2') format('woff2'),
+        url('../fonts-family/opensans/OpenSans-Italic.woff') format('woff'),
+        url('../fonts-family/opensans/OpenSans-Italic.ttf') format('truetype'),
+        url('../fonts-family/opensans/OpenSans-Italic.svg#../fonts-family/opensans/OpenSans-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
 /* reset browser */
 *{
     padding: 0;
@@ -17,6 +202,7 @@
     /* height: 847px; */
     margin: auto;
     /* background-color: aqua; */
+    /* padding-bottom: 90px; */
     
 }
 /* Khoang trong dau trang */
@@ -34,18 +220,17 @@
     padding-left: 2px;
     padding-right: 2px;
     padding-top: 4px;
-    /* justify-content: center; */
-    /* align-items: center; */
+   
     
 }
 
-/* icon-search */
+
 .header-top .icon-search i {
-    /* margin-top: 4px; */
+   
     width: 25px;
     height: 25px;
     margin-left: 2.5px;
-    /* background-color: red; */
+   
 }
 
 /* icon-right-page */
@@ -55,11 +240,8 @@
 }
 
 .right-header-top .box .text-icon p{
-    /* width:20px;
-    height: 19px; */
-    /* margin: 0 8px 0 0; */
-    /* chua co font size icon o day */
     font-family: 'Roboto';
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
     font-size: 18px;
     line-height: 21.09px;
     font-weight: 400;
@@ -91,6 +273,7 @@
 
 .text-middle-header{
     display: flex;
+    margin-left: 180px;
 }
 .text-middle-header p{
     font-size: 28px;
@@ -116,7 +299,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans';
     color: #000000;
 }
 
@@ -125,20 +308,27 @@
 .banner-top{
 margin-top: 81px;
 display: flex;
-/* justify-content:space-between */
+padding-left: 10px;
+
 }
 
 .banner-top .tittle-text{
+    /* margin-left: 300px; */
     font-size: 74px;
     font-weight: 300;
     line-height: 55px;
     margin-top: 75px;
+    font-family: 'Roboto';
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
 }
 .banner-top .descrip-tittle{
-    margin-top: 52px;
+    margin-top: 54px;
     font-size: 30px;
     font-weight: 400;
     line-height: 55px;
+    font-family: 'Roboto';
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
+   
 
 }
 .left-description-content{
@@ -158,6 +348,8 @@ display: flex;
     justify-content: center;
     /* justify-content: space-between; */
     align-items: center;
+    font-family: 'Roboto';
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
 }
 .info-button{
     padding-left: 4px;
@@ -221,7 +413,7 @@ display: flex;
 .tittle-grid-product{
     display: flex;
     justify-content: center;
-    margin-top: 140px;
+    margin-top: 130px;
 
 }
 .tittle-grid-product h2{
@@ -229,6 +421,8 @@ display: flex;
     font-weight: 500;
     line-height: 58.59px;
     margin-bottom: 35px;
+    font-family: 'Roboto';
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
 }
 
 .button-filter{
@@ -237,6 +431,8 @@ display: flex;
     padding: 8px 15px 10px 15px;
     background-color: #1E2832;
     display: flex;
+    font-family: 'Roboto';
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
     /* margin-bottom: 3px; */
 }
 .item1{
@@ -271,7 +467,7 @@ display: flex;
     line-height: 21.79px;
     font-weight: 600;
     color: #00000080 ;
-    ;
+    font-family: 'Open Sans';
 }
 
 /* Product */
@@ -295,7 +491,7 @@ display: flex;
     font-size: 16px;
     line-height: 21.79px;
     font-weight: 600;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans';
 }
 
 .category-price-category{
@@ -305,10 +501,10 @@ display: flex;
 }
 .category-pr{
     color: #00000080  ;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans';
 }
 .price-pr{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans';
     font-weight: 600;
     font-size: 16px;
     color: #000000 ;
@@ -331,7 +527,8 @@ display: flex;
 
 .brand-zara {
     position: relative;
-    margin-top: 140px;
+    margin-top: 135px;
+    margin-bottom: 140px;
 }
 
 /* Brand zara */
@@ -363,7 +560,8 @@ display: flex;
 }
 
 .text-brand-zara p{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto';
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
     margin: 55px 0;
     font-size: 26px;
     line-height: 40px;
@@ -375,7 +573,7 @@ display: flex;
     height: 72px;
     padding: 19px 26px 19px 26px;
     background-color:#FFFFFF;
-    font-family: 'Roboto';
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
     font-size: 29px;
     padding: 19px, 26px, 19px, 26px;
 }
@@ -395,7 +593,8 @@ display: flex;
 
 .button-show-all p{
  color: white;
- font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-family: 'Roboto';
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
  /* text-align: center; */
  /* align-items: center; */
 }
@@ -408,7 +607,8 @@ display: flex;
     line-height: 58.59px;
     display: flex;
     justify-content: center;
-    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto';
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
 }
 
 .sale-section{
@@ -477,18 +677,26 @@ display: flex;
     font-size: 28px;
     font-weight: 400;
     line-height: 33.6px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto';
+    font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
     color: #000000;
 }
 .logo-footer img{
     width: 31px;
     height: 15px;
 }
+.text-left-footer{
+    width: 392px;
+    height: 84px;
+}
 
 .text-left-footer p{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans';
     color: #1E2832BF;
     margin: 32px 0;
+    font-size: 16px;
+    line-height: 21.79px;
+    font-size: 400;
 }
 
 .socials-icon{
@@ -502,14 +710,14 @@ display: flex;
 }
 
 .title-footer-menu div{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
     font-weight: 600;
     line-height: 21.79px;
     font-size: 16px;
 }
 
 .footer-menu .new-brands{
-    font-size: 'Open Sans';
+    font-family: 'Open Sans';
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -520,6 +728,7 @@ display: flex;
 .right-footer{
     display: flex;
     width: 928px;
+    margin-right: 35px;
     
 }
 
@@ -535,6 +744,10 @@ display: flex;
 }
 .footer{
     margin-top: 140px;
+    margin-left: ;
+}
+.last-footer{
+    margin-top: 90px;
 }
 
 
