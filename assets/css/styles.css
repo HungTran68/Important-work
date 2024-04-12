@@ -309,7 +309,18 @@
 margin-top: 81px;
 display: flex;
 padding-left: 10px;
+position: relative;
 
+}
+.left-leaf{
+    position: absolute;
+    left: 0;
+    bottom: 200px;
+}
+.right-leaf{
+    position: absolute;
+    right: 0;
+    bottom: 255px;
 }
 
 .banner-top .tittle-text{
@@ -513,10 +524,18 @@ padding-left: 10px;
     display: flex;
 }
 
+
+
 .special-item .red-price{
     color: red;
     font-weight: 600;
     font-size: 16px;
+    font-family: 'Open Sans';
+}
+.special-item .price-pr{
+    color: var(--Dark-50, rgba(0, 0, 0, 0.5));
+    text-decoration: line-through;
+    margin-right: 15px;
 }
 
 /* css image */
