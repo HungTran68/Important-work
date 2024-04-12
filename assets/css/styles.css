@@ -533,19 +533,21 @@ padding-left: 10px;
 
 /* Brand zara */
 .brand-zara .image-background img{
-    width: 100%;
+    /* margin-right: 180px; */
+    width: 1920px;
     height: 776px;
     position: relative;
     z-index: 1;
 }
 
+
+
 .img-logo-inside img{
     position: absolute;
     z-index: 4;
-    z-index: 3;
-    /* color: white; */
+    
     left: 100%;
-    top: 20%;
+   
     transform: translate(-80%, -50%);
 }
 
@@ -553,8 +555,10 @@ padding-left: 10px;
     position: absolute;
     z-index: 3;
     color: white;
-    left: 80%;
-    top: 60%;
+    right: -70px;
+    
+    top: 470px;
+    
     transform: translate(-80%, -50%);
 
 }
@@ -562,9 +566,9 @@ padding-left: 10px;
 .text-brand-zara p{
     font-family: 'Roboto';
     font-family: '../fonts-family/transfonter.org-20240411-204745/Roboto';
-    margin: 55px 0;
+    margin: 50px  0 45px 0;
     font-size: 26px;
-    line-height: 40px;
+    line-height: 50px;
     font-weight: 400;
 }
 .button-see-collec{
